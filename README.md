@@ -24,14 +24,16 @@ Para construir el Kernel, sólo ejecuté el archivo Makefile:
 ```
 make
 ```
+Lo que genera en la carpeta raiz el kernel llamado: "kernel.bin"
 
-> Nota: Solo se compilará el kernel con el nombre de kernel.bin
-
-> La compilación de los binarios del espacio de usuario se documentará después.
+> Nota: La compilación de los binarios del espacio de usuario se documentará después.
 
 # Contribuir
-Si te interesa contribuir al desarrollo de KernixOS, sigue estos pasos: Haz un fork del repositorio. Crea una nueva rama para tu característica o corrección de errores. Realiza tus cambios y haz commit. Envía un pull request con una descripción clara de tus cambios. 
-<!--Mejorar está sección agregando los requisitos-->
+Si te interesa contribuir al desarrollo de KernixOS, sigue estos pasos: Haz un fork del repositorio. Crea una nueva rama para tu característica o corrección de errores. Realiza tus cambios y haz commit. Envía un pull request con una descripción clara de tus cambios.
+
+## Requisitos
+Se requiere como mínimo tener las herramientas de compilación: [gcc, make](https://gcc.gnu.org/) y [nasm](https://www.nasm.us/)
+
 # Licencia 
 Este proyecto está bajo la Licencia GPL. Consulta el archivo LICENSE para obtener más detalles.
 > Nota: Este proyecto está en fase de desarrollo y es principalmente para fines educativos. No está destinado para su uso en producción.

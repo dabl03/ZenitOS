@@ -80,7 +80,7 @@ int memcmp( const void* p1, const void* p2, uint32_t c )
     const uint8_t* su1, *su2;
     int8_t res = 0;
 
-    for ( su1 = p1, su2 = p2; 0 < c; ++su1, ++su2, c-- ) {
+    for ( su1 = (uint8_t*)p1, su2 = (uint8_t*)p2; 0 < c; ++su1, ++su2, c-- ) {
         if ( ( res = *su1 - *su2 ) != 0 ) {
             break;
         }
